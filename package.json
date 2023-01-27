@@ -1,0 +1,33 @@
+{
+  "name": "dcl-project",
+  "version": "1.0.0",
+  "description": "My new Decentraland project",
+  "scripts": {
+    "start": "dcl start",
+    "build": "build-ecs",
+    "watch": "build-ecs --watch",
+    "ecs:install": "npm install --save-dev decentraland-ecs@latest",
+    "ecs:install-next": "npm install --save-dev decentraland-ecs@next",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@dcl/eslint-config": "^1.0.1",
+    "decentraland-ecs": "^6.11.11"
+  },
+  "dependencies": {
+    "@dcl/ecs-scene-utils": "latest",
+    "@dcl/ui-scene-utils": "latest",
+    "decentraland-transactions": "^1.24.0",
+    "eth-connect": "^6.0.2"
+  },
+  "bundleDependencies": [
+    "decentraland-transactions",
+    "eth-connect",
+    "@dcl/ui-scene-utils",
+    "@dcl/ecs-scene-utils"
+  ],
+  "prettier": {
+    "printWidth": 120
+  }
+}
