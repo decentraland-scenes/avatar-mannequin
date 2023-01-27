@@ -1,10 +1,10 @@
-# Wearables Store
+# Avatar Mannequin
 
-This store allows you to purchase wearables on the Polygon L2 layer from an in-world.
+This scene shows an avatar mannequin that can dynamically change wearables on user interaction. The player can flip through individual categories of wearables or change complete predefined outfits on the mannequin.
 
-The scene is configured to display all of the wearables currently on sale on L2. You can configure this scene to only display certain collections of wearables, for example to have a private store with only your collections.
+You can add your own collections/wearable items to the code using the template provided as well as introduce more categories based on the existing ones
 
-![](screenshot/screenshot.png)
+![](images/scene-thumbnail.png)
 
 ## Try it out
 
